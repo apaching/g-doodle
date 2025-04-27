@@ -1,0 +1,20 @@
+export const avatarList = [
+  '/avatars/armadillo_avatar.png',
+  '/avatars/bear_avatar.png',
+  '/avatars/cat_avatar.png',
+  '/avatars/chicken_avatar.png',
+  '/avatars/cow_avatar.png',
+  '/avatars/dog_avatar.png',
+  '/avatars/ferret_avatar.png',
+  '/avatars/frog_avatar.png',
+  '/avatars/gorilla_avatar.png',
+  '/avatars/koala_avatar.png',
+  '/avatars/llama_avatar.png',
+  '/avatars/mouse_avatar.png',
+  '/avatars/owl_avatar.png',
+  '/avatars/panda_avatar.png',
+  '/avatars/penguin_avatar.png',
+  '/avatars/rabbit_avatar.png',
+  '/avatars/snake_avatar.png',
+  '/avatars/weasel_avatar.png'
+];
