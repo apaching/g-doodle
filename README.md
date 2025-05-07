@@ -29,6 +29,6 @@ pnpm install
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
-pnpm server
+pnpm run server
 pnpm run dev
 ```
