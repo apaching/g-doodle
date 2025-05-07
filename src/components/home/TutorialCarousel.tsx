@@ -34,15 +34,15 @@ const Carousel = () => {
 
   return (
     <div className="flex h-72 w-72 flex-col items-center rounded-md bg-primary_yellow p-2 px-6">
+      <p className="mb-4 font-extrabold uppercase tracking-tighter">
+        How to play
+      </p>
       <div
         key={currentStep}
         className={`flex flex-1 flex-col items-center transition-opacity duration-700 ${
           fade ? 'opacity-100' : 'opacity-0'
         }`}
       >
-        <p className="mb-4 font-extrabold uppercase tracking-tighter">
-          How to play
-        </p>
         <img
           alt="Step Image"
           className="h-32 w-32"

@@ -1,36 +1,23 @@
-![reactjs-vite-tailwindcss-boilerplate](https://user-images.githubusercontent.com/16243531/217138979-b854309c-4742-4275-a705-f9fec5158217.jpg)
+# G Doodle
 
-# React Tailwindcss Boilerplate build with Vite
+### Project Overview:
 
-This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.
-
-## What is inside?
-
-This project uses many tools like:
-
-- [Vite](https://vitejs.dev)
-- [ReactJS](https://reactjs.org)
-- [TypeScript](https://www.typescriptlang.org)
-- [Vitest](https://vitest.dev)
-- [Testing Library](https://testing-library.com)
-- [Tailwindcss](https://tailwindcss.com)
-- [Eslint](https://eslint.org)
-- [Prettier](https://prettier.io)
+A real-time multiplayer drawing and guessing game built with **React**, **TypeScript**, and **Socket.IO**. A player draws on their own canvas, while the others try to guess the word.
 
 ## Getting Started
 
 ### Install
 
-Create the project.
+Clone the project
 
 ```bash
-pnpm dlx degit joaopaulomoraes/reactjs-vite-tailwindcss-boilerplate my-app
+git clone https://github.com/apaching/g-doodle.git
 ```
 
 Access the project directory.
 
 ```bash
-cd my-app
+cd g-doodle
 ```
 
 Install dependencies.
@@ -42,39 +29,6 @@ pnpm install
 Serve with hot reload at <http://localhost:5173>.
 
 ```bash
+pnpm server
 pnpm run dev
 ```
-
-### Lint
-
-```bash
-pnpm run lint
-```
-
-### Typecheck
-
-```bash
-pnpm run typecheck
-```
-
-### Build
-
-```bash
-pnpm run build
-```
-
-### Test
-
-```bash
-pnpm run test
-```
-
-View and interact with your tests via UI.
-
-```bash
-pnpm run test:ui
-```
-
-## License
-
-This project is licensed under the MIT License.

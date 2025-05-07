@@ -5,9 +5,11 @@ import {
   PaintbrushVertical,
   Ruler
 } from 'lucide-react';
+import { socket } from 'lib/socket';
+import { useParams } from 'react-router-dom';
 import { colors } from 'lib/constants/colors';
-import { brushSizes } from 'lib/constants/brush_sizes';
 import { useGameContext } from 'context/GameContext';
+import { brushSizes } from 'lib/constants/brush_sizes';
 
 const ToolBar = () => {
   const {
@@ -15,10 +17,11 @@ const ToolBar = () => {
     setActiveColor,
     strokeWidth,
     setStrokeWidth,
-    clearCanvas,
     mode,
     setMode
   } = useGameContext();
+
+  const { lobby_code } = useParams();
 
   const handleColorChange = (mode: 'draw' | 'erase', color: string) => {
     setActiveColor(color);
@@ -30,7 +33,7 @@ const ToolBar = () => {
   };
 
   const handleClear = () => {
-    clearCanvas();
+    socket.emit('clearDrawing', lobby_code);
     setMode('draw');
   };
 
